@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Cabeçalho*/
+header{
+    max-width: 1370px;
+    Height: 500px;
+    background-image: url(Imagens/Header\ Background.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.intro{
+    max-width: 60%;
+    font-family: "Luckiest Guy", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+}
+h1{
+    width: 400px;
+    font-size: 56px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.buttons{
+    display: flex;
+    gap: 16px;
+}
+.buttons #button1{
+    Width: 220px;
+    Height: 44px;
+    border: none;
+    border-radius: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 16px;
+}
+#button1smart{
+    display: none;
+    Width: 220px;
+    Height: 44px;
+    border: none;
+    border-radius: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 16px;
+}
+.buttons #button2{
+    Width: 320px;
+    Height: 44px;
+    border: none;
+    border-radius: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    background-color: #23272A;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+    header{
+        max-width: 1320px;
+        Height: 550px;
+    }
+    p{
+        font-size: 18px;
+        color: #181b1d;
+        font-weight: bold;
+        width: 380px;
+    }
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    #button1{
+        display: none;
+    }
+    #button1smart{
+        display: block;
+    }
+  }
