@@ -1,13 +1,14 @@
 @media (max-width: 600px) {
+    /*cabeçalho da página*/
     header{
         max-width: 1320px;
         Height: 550px;
+        background-position: center;
     }
     p{
         font-size: 18px;
-        color: #181b1d;
         font-weight: bold;
-        width: 380px;
+        width: 350px;
     }
     .buttons {
       flex-direction: column;
@@ -18,5 +19,31 @@
     }
     #button1smart{
         display: block;
+    }
+
+    /*Primeiro conteúdo da página*/
+    section{
+        flex-direction: column;
+        height: 580px;
+    }
+    section img{
+    width: 100%;
+    }
+    .conteudo1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .conteudo1 h1{
+        font-family: "Open Sans", sans-serif;
+        color: #23272A;
+        font-size: 24px;
+        font-weight: 800;
+        width: 100%;
+    }
+    .conteudo1 p{
+        font-family: "Open Sans", sans-serif;
+        color: #23272A;
+        font-size: 16px;
+        font-weight: 400;
     }
   }
