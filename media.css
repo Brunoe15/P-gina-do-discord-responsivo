@@ -1,9 +1,15 @@
 @media (max-width: 600px) {
+    *{
+        
+    }
     /*cabeçalho da página*/
     header{
         max-width: 1320px;
         Height: 550px;
         background-position: center;
+    }
+    .intro{
+        max-width: 100%;
     }
     p{
         font-size: 18px;
@@ -23,6 +29,7 @@
 
     /*Primeiro conteúdo da página*/
     .cont1{
+        align-items: center;
         flex-direction: column;
         height: 580px;
     }
@@ -31,6 +38,7 @@
     }
     .conteudo1{
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
     .conteudo1 h1{
@@ -45,6 +53,7 @@
 
     /*Segundo conteúdo da página*/
     .cont2{
+        align-items: center;
         flex-direction: column;
         gap: 20px;
         height: 600px;
@@ -54,6 +63,7 @@
         text-align: center;
         gap: 20px;
         padding-top: 30px;
+        align-items: center;
     }
     .conteudo2 h1{
         font-size: 40px;
@@ -63,6 +73,7 @@
 
     /*Terceiro conteúdo da página*/
     .cont3{
+        align-items: center;
         flex-direction: column;
         gap: 20px;
         height: 640px;
@@ -72,10 +83,19 @@
         text-align: center;
         gap: 20px;
         padding-top: 60px;
+        align-items: center;
     }
     .conteudo3 h1{
         font-size: 40px;
         font-weight: 800;
         width: 100%;
+    }
+
+    /*Quarto conteúdo da página*/
+    .cont4{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding-top: 60px;
     }
   }
