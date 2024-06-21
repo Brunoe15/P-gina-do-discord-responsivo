@@ -46,19 +46,34 @@
     /*Segundo conteúdo da página*/
     .cont2{
         flex-direction: column;
-        height: 500px;
         gap: 20px;
-        height: 650px;
+        height: 600px;
     }
     .conteudo2{
         flex-direction: column;
         text-align: center;
         gap: 20px;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .conteudo2 h1{
-        font-family: "Open Sans", sans-serif;
-        color: #23272A;
+        font-size: 40px;
+        font-weight: 800;
+        width: 100%;
+    }
+
+    /*Terceiro conteúdo da página*/
+    .cont3{
+        flex-direction: column;
+        gap: 20px;
+        height: 640px;
+    }
+    .conteudo3{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding-top: 60px;
+    }
+    .conteudo3 h1{
         font-size: 40px;
         font-weight: 800;
         width: 100%;

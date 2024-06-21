@@ -76,8 +76,6 @@ p{
 }
 
 /*Primeiro Conteúdo da página*/
-.fundo1{
-}
 .cont1{
     padding: 40px;
     margin: auto;
@@ -141,4 +139,86 @@ section img{
     font-size: 16px;
     font-weight: 400;
     width: 95%;
+}
+
+/*Terceiro conteúdo da página*/
+.fundo2{
+    background-color: #FfFfFf;
+}
+.cont3{
+    padding: 40px;
+    margin: auto;
+    max-width: 1100px;
+    height: 460px;
+    display: flex;
+    gap: 10px;
+}
+.conteudo3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    width: 360px;
+    gap: 10px;
+}
+.conteudo3 h1{
+    font-family: "Open Sans", sans-serif;
+    color: #23272A;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+}
+.conteudo3 p{
+    font-family: "Open Sans", sans-serif;
+    color: #23272A;
+    font-size: 16px;
+    font-weight: 400;
+    width: 95%;
+}
+
+/*Quarto conteúdo da página*/
+.fundo3{
+    background-color: #F6F6F6;
+    height: 620px;
+}
+.cont4{
+    padding: 40px;
+    margin: auto;
+    max-width: 1100px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.conteudo4{
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.conteudo4 h1{
+    font-family: "Luckiest Guy", cursive;
+    color: #23272A;
+    font-size: 40px;
+    font-weight: 800;
+    width: 100%;
+}
+.conteudo4 p{
+    font-family: "Open Sans", sans-serif;
+    color: #23272A;
+    font-size: 16px;
+    font-weight: 400;
+    width: 95%;
+}
+
+/*Rodapé*/
+footer{
+    height: 100px;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
