@@ -22,28 +22,45 @@
     }
 
     /*Primeiro conteúdo da página*/
-    section{
+    .cont1{
         flex-direction: column;
         height: 580px;
     }
     section img{
-    width: 100%;
+        width: 100%;
     }
     .conteudo1{
         flex-direction: column;
         text-align: center;
     }
     .conteudo1 h1{
-        font-family: "Open Sans", sans-serif;
-        color: #23272A;
         font-size: 24px;
         font-weight: 800;
         width: 100%;
     }
     .conteudo1 p{
-        font-family: "Open Sans", sans-serif;
-        color: #23272A;
         font-size: 16px;
         font-weight: 400;
+    }
+
+    /*Segundo conteúdo da página*/
+    .cont2{
+        flex-direction: column;
+        height: 500px;
+        gap: 20px;
+        height: 650px;
+    }
+    .conteudo2{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding-top: 50px;
+    }
+    .conteudo2 h1{
+        font-family: "Open Sans", sans-serif;
+        color: #23272A;
+        font-size: 40px;
+        font-weight: 800;
+        width: 100%;
     }
   }
